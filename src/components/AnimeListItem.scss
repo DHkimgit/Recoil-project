@@ -1,0 +1,8 @@
+.tr{
+  border-bottom: 1px dashed #495057;
+  transition: 0.3s background ease-in;
+  text-align: center;
+  &:hover {
+    background: #b4b9be;
+  }
+}

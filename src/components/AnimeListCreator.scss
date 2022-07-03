@@ -1,0 +1,134 @@
+.AnimeListTemplate1 {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background: #D9D9D9;
+
+  .animeNameInput{
+    background: #495057;
+    float: left;
+    input {
+      background: none;
+      outline: none;
+      border: none;
+      padding: 0.5rem;
+      font-size: 1.123rem;
+      line-height: 1.5;
+      color: #dee2e6;
+      width: 300px;
+      &::placeholder {
+        color: #dee2e6;
+      }
+      &:hover, &:focus{
+        background:#dee2e6;
+        color: #495057;
+        transition: 0.5s background ease-in;
+        &::placeholder {
+          color: #495057;
+        }
+      }
+    }
+  }
+  .watchDate{
+    background: #495057;
+    p { 
+      background: #495057;
+      float: left;
+      outline: none;
+      border: none;
+      padding: 0.5rem;
+      font-size: 1.123rem;
+      line-height: 1.5;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #dee2e6;
+      width: 100px;
+    }
+  }
+  .watchDateInput{
+    background: #495057;
+    float: left;
+    input {
+      background: none;
+      outline: none;
+      border: none;
+      padding: 0;
+      font-size: 1.123rem;
+      line-height: 1.5;
+      height: 42.92px;
+      color: #dee2e6;
+      width: 200px;
+      &::placeholder {
+        color: #dee2e6;
+      }
+      &:focus{
+        background:#dee2e6;
+        color: #495057;
+      }
+    }
+  }
+  .animeRatingInput{
+    background: #495057;
+    float: left;
+    select {
+      background: none;
+      outline: none;
+      border: none;
+      padding: 0.5rem;
+      font-size: 1.123rem;
+      line-height: 1.5;
+      color: #dee2e6;
+      width: 200px;
+      height: 42.92px;
+      option {
+        color: black;
+      }
+      &:focus{
+        background:#dee2e6;
+        color: #495057;
+      }
+    }
+  }
+  .InsertButton {
+    float: right;
+    Button {
+      outline: none;
+      border: none;
+      background: #868e96;
+      color: white;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1.5rem;
+      width: 88px;
+      height: 42.92px;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.1s background ease-in;
+      &:hover {
+        background: #adb5bd;
+      }
+    }
+  }
+}
+.TableHead{
+  border-bottom: 2px solid #495057;
+}
+.listTable {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  background: #D9D9D9;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
